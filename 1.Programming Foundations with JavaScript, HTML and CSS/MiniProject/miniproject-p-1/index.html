@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>MiniProject P-1</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1>ImgFilter</h1>
+<canvas id="imgCan">
+ </canvas>
+
+<br>
+
+<h3>Load Image: </h3>
+<input id="imgFile" type="file" multiple="false" accept="image/*" onChange="loadImg()">
+
+
+<br><br>
+
+<h3>Choose Filters: </h3>
+<input type="button" value="Gray Scale" onClick="makeGrayScale()"> 
+<input type="button" value="Red" onClick="makeRed()">
+
+<input type="button" value="Reset" onClick="resetCanvas()">
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
