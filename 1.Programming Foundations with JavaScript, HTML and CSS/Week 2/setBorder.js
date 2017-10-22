@@ -20,15 +20,15 @@ function addBorder(img,thickness){
             setBlack(pix);
         
         // Left
-        if(y <= H && x <= thickness)
+        else if(y <= H && x <= thickness)
             setBlack(pix);
         
         // Bottom
-        if(x <= W && y >= (H-thickness) )
+        else if(x <= W && y >= (H-thickness) )
             setBlack(pix);
             
         // Right
-        if(y <= H && x >= (W-thickness))
+        else if(y <= H && x >= (W-thickness))
             setBlack(pix);
     }
 }
